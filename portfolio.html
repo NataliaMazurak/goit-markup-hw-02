@@ -5,27 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li>
-            <a href="./index.html" target="_blank" title="Studio">Studio</a>
+    <!-- Header -->
+    <header class="header">
+      <nav class="header-nav">
+        <a class="logo link" href="./index.html"
+          >Web<span class="colortext">Studio</span></a
+        >
+        <ul class="menu list">
+          <li class="menu-item">
+            <a
+              class="menu-link link"
+              href="./index.html"
+              target="_blank"
+              title="Studio"
+              >Studio</a
+            >
           </li>
-          <li>
-            <a href="./portfolio.html" target="_blank" title="Portfolio"
+          <li class="menu-item">
+            <a
+              class="menu-link link"
+              href="./portfolio.html"
+              target="_blank"
+              title="Portfolio"
               >Portfolio</a
             >
           </li>
-          <li><a href="">Contacts</a>s</li>
+          <li class="menu-item">
+            <a class="menu-link link" href="">Contacts</a>
+          </li>
         </ul>
       </nav>
       <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <ul class="list">
+          <li>
+            <a class="contact-email link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contact-phone link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
@@ -33,104 +63,137 @@
     <main>
       <!-- Portfolio button -->
       <section>
-        <ul>
+        <ul class="portfolio list">
           <li>
-            <button type="button">All</button>
+            <button class="portfolio-btn" type="button">All</button>
           </li>
           <li>
-            <button type="button">Web Site</button>
+            <button class="portfolio-btn" type="button">Web Site</button>
           </li>
           <li>
-            <button type="button">App</button>
+            <button class="portfolio-btn" type="button">App</button>
           </li>
           <li>
-            <button type="button">Design</button>
+            <button class="portfolio-btn" type="button">Design</button>
           </li>
           <li>
-            <button type="button">Marketing</button>
+            <button class="portfolio-btn" type="button">Marketing</button>
           </li>
         </ul>
       </section>
 
-      <!-- Portfolio run1 -->
       <section>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/portfolio/banking.png"
               alt="Banking App Interface Concept"
+              width="360"
+              height="300"
             />
-            <h2>Banking App Interface Concept</h2>
-            <p>App</p>
+            <h2 class="our-products">Banking App Interface Concept</h2>
+            <p class="products">App</p>
           </li>
           <li>
-            <img src="./images/portfolio/cashless.png" alt="Cashless Payment" />
-            <h2>Cashless Payment</h2>
-            <p>Marketing</p>
+            <img
+              src="./images/portfolio/cashless.png"
+              alt="Cashless Payment"
+              width="360"
+              height="300"
+            />
+            <h2 class="our-products">Cashless Payment</h2>
+            <p class="products">Marketing</p>
           </li>
           <li>
-            <img src="./images/portfolio/meditaion.png" alt="Meditaion App" />
-            <h2>Meditaion App</h2>
-            <p>App</p>
+            <img
+              src="./images/portfolio/meditaio.png"
+              alt="Meditaion App"
+              width="360"
+              height="300"
+            />
+            <h2 class="our-products">Meditaion App</h2>
+            <p class="products">App</p>
           </li>
         </ul>
       </section>
 
-      <!-- Portfolio run2 -->
       <section>
-        <ul>
+        <ul class="list">
           <li>
-            <img src="./images/portfolio/taxiser.png" alt="Taxi Service" />
-            <h2>Taxi Service</h2>
-            <p>Marketing</p>
+            <img
+              src="./images/portfolio/taxiser.png"
+              alt="Taxi Service"
+              width="360"
+              height="300"
+            />
+            <h2 class="our-products">Taxi Service</h2>
+            <p class="products">Marketing</p>
           </li>
           <li>
             <img
               src="./images/portfolio/screen.png"
               alt="Screen Illustrations"
+              width="360"
+              height="300"
             />
-            <h2>Screen Illustrations</h2>
-            <p>Design</p>
+            <h2 class="our-products">Screen Illustrations</h2>
+            <p class="products">Design</p>
           </li>
           <li>
             <img
               src="./images/portfolio/online-courses.png"
-              alt="Online Courses"
+              alt="Online
+            Courses"
+              width="360"
+              height="300"
             />
-            <h2>Online Courses</h2>
-            <p>Marketing</p>
+            <h2 class="our-products">Online Courses</h2>
+            <p class="products">Marketing</p>
           </li>
         </ul>
       </section>
 
-      <!-- Portfolio run3 -->
       <section>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/portfolio/instagram-stories-concept.png"
               alt="Instagram Stories Concept"
+              width="360"
+              height="300"
             />
-            <h2>Instagram Stories Concept</h2>
-            <p>Design</p>
+            <h2 class="our-products">Instagram Stories Concept</h2>
+            <p class="products">Design</p>
           </li>
           <li>
-            <img src="./images/portfolio/organicfood.png" alt="Organic Food" />
-            <h2>Organic Food</h2>
-            <p>Web Site</p>
+            <img
+              src="./images/portfolio/organicfood.png"
+              alt="Organic Food"
+              width="360"
+              height="300"
+            />
+            <h2 class="our-products">Organic Food</h2>
+            <p class="products">Web Site</p>
           </li>
           <li>
-            <img src="./images/portfolio/freshcoffee.png" alt="Fresh Coffee" />
-            <h2>Fresh Coffee</h2>
-            <p>Web Site</p>
+            <img
+              src="./images/portfolio/freshcoffee.png"
+              alt="Fresh Coffee"
+              width="360"
+              height="300"
+            />
+            <h2 class="our-products">Fresh Coffee</h2>
+            <p class="products">Web Site</p>
           </li>
         </ul>
       </section>
     </main>
-
+    <!-- Footer -->
     <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+      <a class="logo link" href="./index.html"
+        >Web<span class="colortext">Studio</span></a
+      >
+      <p class="description">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
