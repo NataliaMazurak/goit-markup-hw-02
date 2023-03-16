@@ -7,6 +7,10 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
+  background-color: #ffffff;
+}
+:root {
+  --title-section: #2e2f42;
 }
 /* -----------Header----------- */
 .logo {
@@ -27,7 +31,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-section);
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -82,7 +86,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-section);
 }
 .functions {
   font-weight: 400;
@@ -99,7 +103,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--title-section);
 }
 
 /* ---------Section 03 ---------*/
@@ -113,7 +117,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--title-section);
 }
 .backphoto {
   background-color: #ffffff;
@@ -124,7 +128,7 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-section);
 }
 .position {
   font-weight: 400;
@@ -171,7 +175,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-section);
 }
 .portfolio-type {
   font-weight: 400;
