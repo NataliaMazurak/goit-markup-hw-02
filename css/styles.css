@@ -78,7 +78,7 @@ body {
 }
 .order-btn:hover,
 .order-btn:focus {
-  color: #404BBF;
+  background-color: #404bbf;
 }
 /* ---------Section 01 ---------*/
 .criteria {
