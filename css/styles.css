@@ -7,7 +7,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  
 }
 /* -----------Header----------- */
 .logo {
@@ -23,7 +22,7 @@ body {
   color: #2e2f42;
 }
 
-.menu-item {
+.menu-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -40,7 +39,7 @@ body {
 .contact-email {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -82,11 +81,14 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
   color: #ffffff;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
 }
-.order-btn:hover,
+.order-btn:hover {
+  background-color: #404bbf;
+}
+
 .order-btn:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 /* ---------Section 01 ---------*/
 .criteria {
@@ -162,12 +164,13 @@ body {
 /* --------------------Portfolio-------------------- */
 /* --------Portfolio button-------- */
 .portfolio-btn {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4d5ae5;
-  background-color:#F4F4FD
+  background-color: #f4f4fd;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -184,7 +187,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.portfolio-type{
+.portfolio-type {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
