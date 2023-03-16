@@ -36,7 +36,14 @@ body {
 .address-header {
   font-style: normal;
 }
-.contact-inf {
+.contact-email {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contact-phone {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -44,8 +51,12 @@ body {
   color: #434455;
 }
 
-.contact-inf:hover,
-.contact-inf:focus {
+.contact-email:hover,
+.contact-email:focus {
+  color: #404bbf;
+}
+.contact-phone:hover,
+.contact-phone:focus {
   color: #404bbf;
 }
 /* --------Hero-------- */
