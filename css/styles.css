@@ -83,12 +83,9 @@ body {
   color: #ffffff;
   background-color: #4d5ae5;
 }
-.order-btn:hover {
-  background-color: #404bbf;
-}
-
+.order-btn:hover,
 .order-btn:focus {
-  background-color: #404bbf;
+  color: #404BBF;
 }
 /* ---------Section 01 ---------*/
 .criteria {
