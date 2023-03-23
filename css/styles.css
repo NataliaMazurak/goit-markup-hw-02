@@ -11,7 +11,7 @@ body {
 }
 :root {
   --title-section: #2e2f42;
-  --hover-focus: #404bbf;
+  --accent-color: #404bbf;
 }
 /* -----------Header----------- */
 .logo {
@@ -36,7 +36,7 @@ body {
 }
 .menu-link:hover,
 .menu-link:focus {
-  color:var(--hover-focus)
+  color:var(--accent-color);
 }
 .address-header {
   font-style: normal;
@@ -51,7 +51,7 @@ body {
 
 .contact-email-phone:hover,
 .contact-email-phone:focus {
-  color: var(--hover-focus)
+  color: var(--accent-color);
 }
 /* --------Hero-------- */
 .dark {
@@ -79,7 +79,7 @@ body {
 }
 .order-btn:hover,
 .order-btn:focus {
-  background-color: var(--hover-focus)
+  background-color: var(--accent-color);
 }
 /* ---------description of functions ---------*/
 .criteria {
@@ -166,7 +166,7 @@ body {
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   color: #ffffff;
-  background-color: var(--hover-focus)
+  background-color: var(--accent-color)
 }
 .portfolio-btn {
   cursor: pointer;
